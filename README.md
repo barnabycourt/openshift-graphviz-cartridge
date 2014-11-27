@@ -6,11 +6,16 @@ This cartridge provides a [Graphviz](http://www.graphviz.org) installation.
 
 Usage
 -----
-TODO
+
+The cartridge can be added to any application either through the OpenShift web console or the [OpenShift client tools](https://developers.openshift.com/en/getting-started-client-tools.html)
+using the URL http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-graphviz-cartridge. 
+Example using the OpenShift client tools:
+
+    rhc -a*myapp* cartridge-add http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-graphviz-cartridge
+    rhc -a*myapp* app restart
 
 Graphviz Version Info
 ---------------------
-The [Graphviz](http://www.graphviz.org) version provided is taken from the rpm provided by Red Hat Enterprise Linux 6.
-Current version is *2.26.0*.
+The [Graphviz](http://www.graphviz.org) version provided, currently *2.26.0*, is taken from the rpm included in [CentOS](http://www.centos.org/) 6.
 
-Source is available at http://github.com/ellson/graphviz/
+Graphviz sources are available at http://github.com/ellson/graphviz/
