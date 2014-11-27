@@ -1,0 +1,27 @@
+Name: graphviz
+Cartridge-Short-Name: graphviz
+Display-Name: Graphviz 2.26.0
+Description: Graphiviz add-on cartridge. Graphviz is a collection of tools for the manipulation and layout of graphs (as in nodes
+and edges, not as in barcharts). Can be used with any primary cartridge.
+Version: 2.26.0
+License: CPL
+Vendor: graphviz.org
+Cartridge-Version: 1.0.0
+Cartridge-Vendor: puzzleitc
+Compatible-Versions:
+- 1.0.0
+Categories:
+- embedded
+- plugin
+Help-Topics:
+Getting Started Guide: https://www.openshift.com/blogs/getting-started-with-cron-jobs-on-openshift
+Provides:
+- graphviz-2.26.0
+- graphviz
+Scaling:
+Min: 1
+Max: -1
+Group-Overrides:
+- components:
+- graphviz
+- web_framework
