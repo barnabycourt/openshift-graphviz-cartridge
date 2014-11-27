@@ -12,7 +12,8 @@ using the URL http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-
 Example using the OpenShift client tools:
 
     rhc -amyapp cartridge-add http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-graphviz-cartridge
-    rhc -amyapp app restart
+    rhc -amyapp app stop
+    rhc -amyapp app start
 
 Graphviz Version Info
 ---------------------
