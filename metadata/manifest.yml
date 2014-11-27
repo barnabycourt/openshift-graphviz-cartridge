@@ -23,5 +23,5 @@ Scaling:
   Max: -1
 Group-Overrides:
 - components:
-- graphviz
-- web_framework
+  - graphviz
+  - web_framework
