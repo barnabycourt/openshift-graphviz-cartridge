@@ -1,8 +1,8 @@
 Name: graphviz
 Cartridge-Short-Name: graphviz
 Display-Name: Graphviz 2.26.0
-Description: Graphiviz add-on cartridge. Graphviz is a collection of tools for the manipulation and layout of graphs (as in nodes
-and edges, not as in barcharts). Can be used with any primary cartridge.
+Description: "Graphiviz add-on cartridge. Graphviz is a collection of tools for the manipulation and layout of graphs (as in nodes
+and edges, not as in barcharts). Can be used with any primary cartridge."
 Version: 2.26.0
 License: CPL
 Vendor: graphviz.org
