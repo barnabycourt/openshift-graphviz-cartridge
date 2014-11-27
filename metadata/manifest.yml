@@ -19,8 +19,8 @@ Provides:
 - graphviz-2.26.0
 - graphviz
 Scaling:
-Min: 1
-Max: -1
+  Min: 1
+  Max: -1
 Group-Overrides:
 - components:
 - graphviz
