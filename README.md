@@ -11,8 +11,8 @@ The cartridge can be added to any application either through the OpenShift web c
 using the URL http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-graphviz-cartridge. 
 Example using the OpenShift client tools:
 
-    rhc -a*myapp* cartridge-add http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-graphviz-cartridge
-    rhc -a*myapp* app restart
+    rhc -amyapp cartridge-add http://cartreflect-claytondev.rhcloud.com/github/puzzle/openshift-graphviz-cartridge
+    rhc -amyapp app restart
 
 Graphviz Version Info
 ---------------------
