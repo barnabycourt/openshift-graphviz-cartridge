@@ -1,3 +1,5 @@
 #!/bin/sh -e
 
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${OPENSHIFT_GRAPHVIZ_DIR}/usr/lib64
+
 ${GRAPHVIZ_DOT} -c
